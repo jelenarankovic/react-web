@@ -7,7 +7,7 @@
 
 .home,
 .about-us,
-.sign-up-text{
+.join-us-text{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .about-us {
-  background-image: url(./images/organize-photo.jpg);
+  background-image: url("./images/organize-photo.jpg");
   width: 100%;
   height: auto;
   background-position: center ;
@@ -35,17 +35,18 @@
   padding: 100px;
 }
 
-.sign-up {
-  background-image: url("./images/coffee-bg.jpg");
+.join-us {
+  background-image: url("./images/sign-up.jpg");
   background-position: center;
   color: #fff;
 }
 
-.sign-up-text {
+.join-us-text{
   text-align: center;
   padding: 200px;
   color: #fff;
-  font-size: 30px;
+  font-size: 40px; 
+ 
 }
 
 @media only screen and (max-width: 1200px) {
@@ -56,7 +57,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .sing-up-text {
+  .join-us-text {
     padding: 50px;
     font-size: 20px;
   }
