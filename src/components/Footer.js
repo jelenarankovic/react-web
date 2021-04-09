@@ -9,14 +9,14 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Opening hours</h2>
-                <p>Working days: 7am - 8pm</p>
-                <p>Weekends: 8am - 6pm</p>
+                <p>Working days: 9am - 6pm</p>
+                <p>Weekends: 10am - 5pm</p>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
                 <p> +123456789</p>
-                <p>heartscafeteria@gmail.com</p> 
-                <p>Kneza Mihaila 11</p>
+                <p>trvl@gmail.com</p> 
+                <p>Vojvode Tankosića 11</p>
                 <p>Belgrade, Serbia</p>
           </div>
         </div>
@@ -25,11 +25,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Cafeteria
-              <i class='fas fa-coffee' />
+             TRVL
+              <i class="fas fa-map-pin"></i>
             </Link>
           </div>
-          <small class='website-rights'>Cafeteria © 2020</small>
+          <small class='website-rights'>TRVL © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

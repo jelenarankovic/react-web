@@ -94,6 +94,10 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .card-item1{
+    background-image: url('/src/images/organize-photo.jpg');
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {

@@ -7,7 +7,7 @@
 
 .home,
 .about-us,
-.our-coffee-text {
+.sign-up-text{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,15 +16,17 @@
 }
 
 .about-us {
-  background-image: url("./images/coffee-bg2.jpg");
-  background-position: center;
-  color: #301c09;
+  background-image: url(./images/organize-photo.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center ;
+  color: #44593a;
   font-size: 100px;
   text-align: center;
 }
 
 .about-us-text {
-  background-color: #301c09;
+  background-color: #44593a;
   color: #fff;
   font-size: 25px;
   text-align: center;
@@ -33,16 +35,16 @@
   padding: 100px;
 }
 
-.our-coffee {
+.sign-up {
   background-image: url("./images/coffee-bg.jpg");
   background-position: center;
   color: #fff;
 }
 
-.our-coffee-text {
+.sign-up-text {
   text-align: center;
   padding: 200px;
-  color: #301c09;
+  color: #fff;
   font-size: 30px;
 }
 
@@ -54,7 +56,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .our-coffee-text {
+  .sing-up-text {
     padding: 50px;
     font-size: 20px;
   }
@@ -71,8 +73,9 @@
 }
 
 .home-page {
-  background-color: #301c09;
-  background-image: url("./images/coffeee-bg.jpg");
-  background-position: center;
-  color: #301c09;
+
+  background-image: url("./images/pocetna-pozadina.jpg");
+
+  background-position: center ;
+
 }
