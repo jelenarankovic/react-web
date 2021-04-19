@@ -39,6 +39,10 @@
     overflow: hidden;
     text-decoration: none;
   }
+
+  /*.card-1{
+    background-image: url("./../images/capuccino.jpg");
+  }*/
   
   .cards__item__pic-wrap {
     position: relative;
